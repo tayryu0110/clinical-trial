@@ -1,0 +1,59 @@
+NAME:  PBC Data (PBC.DAT)
+SIZE:  418 observations, 20 variables
+
+SOURCE:  Counting Processes and Survival Analysis by T. Fleming & 
+         D. Harrington, (1991),  published by John Wiley & Sons.
+
+
+DESCRIPTIVE ABSTRACT:
+
+Below is a description of the variables recorded from the Mayo Clinic trial 
+in primary biliary cirrhosis (PBC) of the liver conducted between 1974 and 
+1984.  A total of 418 PBC patients, referred to Mayo Clinic during
+that ten-year interval, met eligibility criteria for the randomized placebo 
+controlled trial of the drug D-penicillamine. The first 312 cases in the data 
+set participated in the randomized trial, and contain largely complete data. 
+The additional 106 cases did not participate in the clinical trial, but 
+consented to have basic measurements recorded and to be followed for survival.
+Six of those cases were lost to follow-up shortly after diagnosis, so there 
+are data here on an additional 106 cases as well as the 312 randomized 
+participants. Missing data items are denoted by ".".  At least one space 
+separates each variable in the .DAT file.  Censoring was due to liver 
+transplantation for twenty-five subjects with the following case numbers: 
+5, 105, 111, 120, 125, 158, 183, 241, 246, 247, 254, 263, 264, 265, 274, 
+288, 291, 295, 297, 345, 361, 362, 375, 380, 383.
+
+
+LIST OF VARIABLES:
+
+Variable	Description
+___________________________________________________________________________
+
+N   	Case number.
+X   	The number of days between registration and the earlier of
+     	death, liver transplantation, or study analysis time in July, 1986.
+D   	1 if X is time to death, 0 if time to censoring
+Z1  	Treatment Code, 1 = D-penicillamine, 2 = placebo.
+Z2  	Age in years. For the first 312 cases, age was calculated by
+     	dividing the number of days between birth and study registration by 365.
+Z3  	Sex, 0 = male, 1 = female.
+Z4  	Presence of ascites, 0 = no, 1 = yes.
+Z5  	Presence of hepatomegaly, 0 = no, 1 = yes.
+Z6  	Presence of spiders 0 = no, 1 = Yes.
+Z7  	Presence of edema, 0 = no edema and no diuretic therapy for
+     	edema; 0.5 = edema present for which no diuretic therapy was given, or 
+     	edema resolved with diuretic therapy; 1 = edema despite diuretic therapy
+Z8  	Serum bilirubin, in mg/dl.
+Z9  	Serum cholesterol, in mg/dl.
+Z10 	Albumin, in gm/dl.
+Z11 	Urine copper, in mg/day.
+Z12 	Alkaline phosphatase, in U/liter.
+Z13 	SGOT, in U/ml.
+Z14 	Triglycerides, in mg/dl.
+Z15 	Platelet count; coded value is number of platelets
+     	per-cubic-milliliter of blood divided by 1000.
+Z16 	Prothrombin time, in seconds.
+Z17 	Histologic stage of disease, graded 1, 2, 3, or 4.
+_____________________________________________________________________________
+
+
